@@ -109,7 +109,7 @@ export default function About({ founderImage }: { founderImage?: string }) {
                             </div>
                             <div className="flex flex-col gap-6 text-base font-light leading-relaxed text-primary/60 dark:text-white/60 max-w-xl">
                                 <p>
-                                    VARTEX was founded in 2025 to bring thoughtful, well-engineered architecture to commercial and residential projects across Nigeria. Our mission is to design spaces that balance function, budget, and beauty.
+                                    Vartex Architects was founded in 2025 to bring thoughtful, well-engineered architecture to commercial and residential projects across Nigeria. Our mission is to design spaces that balance function, budget, and beauty.
                                 </p>
                                 <p>
                                     Our team collaborates with engineers, landscape architects, and other specialists to deliver buildings that are structurally sound and beautifully designed.

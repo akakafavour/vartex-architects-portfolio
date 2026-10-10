@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
 import SmoothScroll from "@/components/SmoothScroll";
+import ScrollToTop from "@/components/ScrollToTop";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Script from "next/script";
@@ -158,6 +159,7 @@ export default function RootLayout({
 
 
                 <SmoothScroll>
+                    <ScrollToTop />
                     <div className="flex flex-col min-h-screen">
                         {children}
                     </div>

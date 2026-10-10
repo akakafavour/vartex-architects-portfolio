@@ -5,6 +5,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
     title: "Terms of Service / VARTEX Architects",
     description: "Terms governing the use of vartexarchitects.com and the engagement of our architectural design and consulting services.",
+    alternates: { canonical: "/terms" },
 };
 
 export default function TermsOfService() {

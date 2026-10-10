@@ -5,6 +5,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
     title: "Privacy Policy / VARTEX Architects",
     description: "How VARTEX Architects collects, uses, and safeguards your personal data. Compliant with GDPR, CCPA, and NDPA 2023.",
+    alternates: { canonical: "/privacy" },
 };
 
 export default function PrivacyPolicy() {

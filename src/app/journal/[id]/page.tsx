@@ -39,6 +39,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return {
         title: `${post.title} | Vartex Architects Journal`,
         description: post.excerpt || post.summary || `Read our latest article: ${post.title} on the Vartex Architects Journal.`,
+        alternates: {
+            canonical: `/journal/${id}`
+        },
         openGraph: {
             title: `${post.title} | Vartex Architects Journal`,
             description: post.excerpt || post.summary || `Read our latest article: ${post.title} on the Vartex Architects Journal.`,

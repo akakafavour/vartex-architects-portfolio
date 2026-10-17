@@ -88,6 +88,10 @@ export default function ProjectClient({ project, prevProject, nextProject, relat
             });
         }, mainRef);
         return () => ctx.revert();
+    }, []);
+
+    useEffect(() => {
+        setDescriptionExpanded(false);
     }, [project.id, project.slug]);
 
     return (
